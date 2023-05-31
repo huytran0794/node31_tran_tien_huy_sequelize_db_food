@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "29575e28-f6ce-40c9-84f5-eedfd68128c4",
+		"_postman_id": "f4c0e00a-13da-4b41-b4ef-ec659d706eb1",
 		"name": "node31-sequelize-app-food",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "8680170"
@@ -218,7 +218,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"userId\": \"1\",\r\n    \"resId\": \"4\",\r\n    \"amount\": \"3\"\r\n}",
+					"raw": "{\r\n    \"userId\": \"1\",\r\n    \"foodId\": \"6\",\r\n    \"amount\": \"3\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -226,13 +226,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{domain}}/user/rate-restaurant",
+					"raw": "{{domain}}/user/orderFood",
 					"host": [
 						"{{domain}}"
 					],
 					"path": [
 						"user",
-						"rate-restaurant"
+						"orderFood"
 					]
 				}
 			},

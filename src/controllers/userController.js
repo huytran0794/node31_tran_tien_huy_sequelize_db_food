@@ -336,7 +336,7 @@ const userController = {
         responseHandler.created(
           res,
           data,
-          `User ${data.user_id} order food ${data.res_id} successfully`
+          `User ${data.user_id} order food ${data.food_id} successfully`
         );
       }
     } catch (error) {
